@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,11 +12,20 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/* Grijs #899CA0
+Donker groen #1C2B32
+*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
@@ -22,7 +33,34 @@ Table of Contents:
     2. Typography
 ////////////////////////*/
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
+h1, h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 5em;
+    padding-top: 40px;
+
+}
+
+p {
+    padding: 20px;
+    font-size: 16px;
+}
+
+a {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 /*////////////////////////
     3. Areas
@@ -32,18 +70,73 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
+.header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-in-header {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #1C2B32;
+    padding-bottom: 300px
+
+}
+
+.input-beschikbaarheid {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 24px 0 0 24px;
+    border: 2px solid #1C2B32;
+    background: transparent;
+}
+
+.input-button-beschikbaarheid {
+    font-family: 'Poppins', sans-serif;
+    padding: 12px;
+    border-radius: 0 24px 24px 0;
+    margin: -8px;
+    background-color: #1C2B32;
+    color: #fff;
+    border: none;
+
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
 
 
+.main-element {
+    max-width: 1000px;
+    margin: auto;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
 
+.callcenter-picture {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.contact-button {
+    font-family: 'Poppins', sans-serif;
+    padding: 16px 20px;
+    color: #fff;
+    background-color: #1C2B32;
+    border-radius: 26px;
+    margin-left: 20px;
+
+}
+
 
 /*///////////// 3.4 Faq /////////////*/
 
-
+.veelgestelde-vragen {
+    padding: 20px;
+}
 
 /*///////////// 3.5 Footer /////////////*/
